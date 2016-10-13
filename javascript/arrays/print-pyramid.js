@@ -17,5 +17,12 @@ function getAlignToRight(stars, n){
     return stars;
 }
 
+function getStarsShortVersion(n){
+    for(var i=0; i<n; i++) {
+        var x = Array.from(Array(n)).fill('_').fill('#', (n - 1 - i));
+        console.log( x.join('').replace(/_/ig, ' ') );
+    }
+}
+
 getStars(3);
 getStars(5);
