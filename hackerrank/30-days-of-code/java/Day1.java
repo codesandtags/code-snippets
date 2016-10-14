@@ -5,20 +5,20 @@ public class Day1{
     }
 
     public static void solution(){
-        // Create a Scanner object to read input from stdin.
-        Scanner scan = new Scanner(System.in);
+        /* Declare second integer, double, and String variables. */
+        /* Read and save an integer, double, and String to your variables.*/
+        int secondInteger = Integer.parseInt(scan.nextLine());
+        double secondDouble = Double.parseDouble(scan.nextLine());
+        String secondString = scan.nextLine();
 
-        // Read a full line of input from stdin and save it to our variable, inputString.
-        String inputString = scan.nextLine();
+        /* Print the sum of both integer variables on a new line. */
+        System.out.println(i + secondInteger);
 
-        // Close the scanner object, because we've finished reading
-        // all of the input from stdin needed for this challenge.
-        scan.close();
+        /* Print the sum of the double variables on a new line. */
+        System.out.println(d + secondDouble);
 
-        // Print a string literal saying "Hello, World." to stdout.
-        System.out.println("Hello, World.");
-
-        // TODO: Write a line of code here that prints the contents of inputString to stdout.
-        System.out.println(inputString);
+        /* Concatenate and print the String variables on a new line;
+        	the 's' variable above should be printed first. */
+        System.out.println(s + secondString);
     }
 }

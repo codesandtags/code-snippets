@@ -6,20 +6,20 @@ public class Day1{
 
     public static void solution(){
         Scanner scan = new Scanner(System.in);
-        double mealCost = scan.nextDouble(); // original meal price
-        int tipPercent = scan.nextInt(); // tip percentage
-        int taxPercent = scan.nextInt(); // tax percentage
+        int n = scan.nextInt();
         scan.close();
+        String ans="Weird"; // By Default is Werid as an odd number
 
-        // Write your calculation code here.
-        double tip = mealCost * tipPercent / 100;
-        double tax = mealCost * taxPercent / 100;
+        if(n%2 == 0) {
+            // If n is even and in the inclusive range of 2 to 5, print Not Weird
+            // If n is even and greater than 20, print Not Weird
+            if( (n >= 2 && n <= 5) || (n > 20) ){
+                ans = "Not Weird";
+            } else {
+                ans = "Weird";
+            }
+        }
 
-
-        // cast the result of the rounding operation to an int and save it as totalCost
-        int totalCost = (int) Math.round(mealCost + tip + tax);
-
-        // Print your result
-        System.out.println("The total meal cost is " + totalCost + " dollars.");
+        System.out.println(ans);
     }
 }
