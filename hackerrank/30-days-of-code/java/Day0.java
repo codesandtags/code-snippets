@@ -1,4 +1,4 @@
-public class Day1{
+public class Day0{
     public static void main(String[] args) {
         // Into this method you can find the solution
         solution();
