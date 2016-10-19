@@ -24,5 +24,12 @@ function getStarsShortVersion(n){
     }
 }
 
+function shorterVersion(n){
+    for (let i = 0; i <= n; i += 1) {
+        console.log(' '.repeat(n - i) + '#'.repeat(i));
+    }
+}
+
 getStars(3);
 getStars(5);
+shorterVersion(3);
