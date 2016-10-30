@@ -9,8 +9,14 @@
     
 - Hacker Rank
     -  30-days-of-code
-        - Java
-        - JavaScript
+        - java
+        - javaScript
+    - challenges
+        - algorithms
+            - javascript
+    - contests
+        - 2016
+    - crackling-the-code
 
 
 > Coming soon more content...
