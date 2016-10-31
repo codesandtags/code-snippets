@@ -96,3 +96,11 @@ function main() {
     console.log(orange.length);
 
 }
+
+
+/**
+ * Shorter version solution :
+
+ console.log(apple.reduce( (count, m) => {return ((a + m) >= s && (a + m) <= t) ? count+1:count},0));
+ console.log(orange.reduce( (count, n) => {return ((b + n) >= s && (b + n) <= t) ? count+1:count},0));
+ */
