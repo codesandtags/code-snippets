@@ -18,5 +18,8 @@
         - 2016
     - crackling-the-code
 
+## Resources
+
+- https://codility.com/programmers/lessons/1-iterations/
 
 > Coming soon more content...
